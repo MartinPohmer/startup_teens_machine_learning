@@ -124,3 +124,13 @@ if __name__ == "__main__":
         print("Das ist ein Hund!")
     else:
         print("Das ist kein Hund...")
+
+
+    perzeptron.visualize(feature, labels)
+    print(feature)
+    print(labels)
+
+    print(type(feature))
+    print(type(labels))
+
+
