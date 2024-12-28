@@ -133,4 +133,6 @@ if __name__ == "__main__":
     print(type(feature))
     print(type(labels))
 
+    perzeptron.falsche_klassifikationen()
+
 
